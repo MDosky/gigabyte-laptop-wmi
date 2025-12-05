@@ -751,6 +751,7 @@ static const struct attribute_group gigabyte_laptop_attr_group = {
 static const struct dmi_system_id gigabyte_laptop_known_working_platforms[] = {
 	DMI_EXACT_MATCH_GIGABYTE_LAPTOP_FAMILY("AERO"),
 	DMI_EXACT_MATCH_GIGABYTE_LAPTOP_FAMILY("AORUS"),
+	DMI_EXACT_MATCH_GIGABYTE_LAPTOP_FAMILY("GIGABYTE GAMING"),
 	// For older Aero models
 	DMI_EXACT_MATCH_GIGABYTE_LAPTOP_FAMILY("Intel"),
 	DMI_EXACT_MATCH_GIGABYTE_LEGACY_DEVICE("Aero 14"),
